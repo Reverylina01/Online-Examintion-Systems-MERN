@@ -33,7 +33,7 @@ Ant Design
 Steps to Run This Project Locally:-
 Install this project with npm For Backend
 Clone the Project
-  git clone https://github.com/princegupta0701/Online-Examination-System-MERN-Stack.git
+  git clone https://github.com/Reverylina01/Online-Examintion-Systems-MERN.git
 Go to the project directory
   cd Online-Examination-System-MERN-Stack/Backend
 Install dependencies
