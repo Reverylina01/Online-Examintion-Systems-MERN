@@ -65,14 +65,18 @@ Steps to Do After Cloning The Repository:-
 
 7. By Default Admin emailid: "admin@test.com", Password: "admin" .
    ScreenShots Of The Project Modules:-
+   Home Page :-
+   ![image](https://github.com/user-attachments/assets/2915a9ef-40ae-4aa1-864e-a145619cf0b1)
+
 1. Login Page For Admin And Examiner:
    ![image](https://github.com/user-attachments/assets/99a8032f-7d3a-4c12-811f-2366cb00b24e)
    2. Admin Adding New Examiner and Courses:
 ![image](https://github.com/user-attachments/assets/fdde76a4-0525-4391-b96c-603e6ac61648)
 3. Examiner Panel for Question Management:
 ![image](https://github.com/user-attachments/assets/636e1bfe-112d-4e27-a384-961080a275d4)
+4. Premium Course :-
+    ![image](https://github.com/user-attachments/assets/807e7f4d-7785-4993-bcaf-d5acb68ad569)
 
-
-
-
+5. Free Course :-
+  ![image](https://github.com/user-attachments/assets/0413f962-ad6a-4fa3-8beb-478dc06ca41c)
    
