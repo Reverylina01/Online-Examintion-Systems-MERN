@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffe4e1;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.user-guidelines-container {
+  padding: 40px 10%;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #ff007f;
+}
+
+.nav-links {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.nav-links a {
+  color: #ff007f;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.guidelines-content {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro-section h2 {
+  font-size: 2rem;
+  color: #ff007f;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h3 {
+  font-size: 1.6rem;
+  color: #ff007f;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.cta-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+}
+
+.cta-section a {
+  color: #ff007f;
+  text-decoration: none;
+}
+
+.cta-section a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #666;
+}

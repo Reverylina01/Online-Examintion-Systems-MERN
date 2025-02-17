@@ -1,0 +1,138 @@
+/* Profile Container */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #7b94ac; /* Light background color */
+}
+
+.profile-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 450px;
+  text-align: center;
+  color: #333;
+  transition: box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.profile-header h2 {
+  font-family: 'Arial', sans-serif;
+  color: #34495e;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Profile Picture */
+.profile-picture-container {
+  margin-bottom: 30px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.btn-upload {
+  background-color: #f39c12; /* Bright yellow-orange */
+  color: white;
+  padding: 12px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-upload:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+}
+
+/* Profile Details */
+.profile-details {
+  margin-top: 30px;
+}
+
+.form-label {
+  text-align: left;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #bdc3c7;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #3498db; /* Blue border on focus */
+  outline: none;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.btn-update, .btn-logout {
+  width: 100%;
+  padding: 14px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-update {
+  background-color: #27ae60; /* Green for update */
+  color: white;
+}
+
+.btn-update:hover {
+  background-color: rgb(135,206,250); /* Lighter green on hover */
+}
+
+.btn-logout {
+  background-color: #3c59e7; /* Red for logout */
+  color: white;
+}
+
+.btn-logout:hover {
+  background-color: #2bb1c0; /* Darker red on hover */
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .profile-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .form-control {
+    font-size: 1rem;
+  }
+
+  .btn-upload, .btn-update, .btn-logout {
+    width: 100%;
+  }
+}

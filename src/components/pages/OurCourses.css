@@ -1,0 +1,194 @@
+/* Main Section */
+.our-courses-section {
+  padding: 60px 30px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #6dd5ed); /* Modern blue gradient */
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+  overflow: hidden;
+  position: relative;
+}
+
+.our-courses-section::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 150%;
+  height: 150%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 10%, transparent 60%);
+  z-index: 0;
+  animation: move-glow 8s infinite linear;
+}
+
+@keyframes move-glow {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-20px, -20px);
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  color: #f2f3f0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Subtle glow for text */
+  position: relative;
+  z-index: 1;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+  color: rgba(17, 17, 17, 0.85); /* Light transparent white */
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+/* Courses Container */
+.courses-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.course-card {
+  background: linear-gradient(145deg, #ffffff, #e0e0e0); /* 3D soft gradient */
+  border-radius: 20px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.6); /* Neumorphic shadow */
+  width: 320px;
+  padding: 25px;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.course-card:hover {
+  transform: translateY(-10px); /* Lift effect */
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.3), -6px -6px 15px rgba(255, 255, 255, 0.8); /* Enhanced hover shadow */
+}
+
+.course-header h3 {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  color: #34495e;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.course-image img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Light shadow for images */
+  margin-bottom: 20px;
+}
+
+.course-description {
+  font-size: 1.2rem;
+  color: #34495e;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Button Styling */
+.btn-learn-more {
+  background: linear-gradient(135deg, #f39c12, #e67e22); /* Modern gradient button */
+  color: white;
+  padding: 12px 25px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(243, 156, 18, 0.4); /* Glow effect */
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.btn-learn-more:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+  box-shadow: 0 8px 20px rgba(243, 156, 18, 0.6); /* Brighter glow on hover */
+  background: linear-gradient(135deg, #e67e22, #f39c12); /* Inverse gradient on hover */
+}
+
+/* Footer Section */
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 40px 0;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.footer-content {
+  font-size: 1.2rem;
+  color: #79c0f9; /* Enhanced color for footer text */
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.footer-links a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-links a:hover {
+  color: #f39c12;
+  text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .courses-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .course-card {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .btn-learn-more {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}

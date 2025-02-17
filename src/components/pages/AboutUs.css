@@ -1,0 +1,158 @@
+/* Set the background to a more vibrant and playful gradient */
+.about-us-section {
+  background: linear-gradient(135deg, #f39c12, #e74c3c);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+/* Add a white container for content with shadow and rounded edges */
+.about-us-content {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect to create a subtle 3D scaling effect */
+.about-us-content:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Style headings with 3D effect */
+.about-us-content h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transform: translateZ(0);
+}
+
+.about-us-content h2 {
+  font-size: 2.5rem;
+  margin-top: 30px;
+  color: #e74c3c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #e74c3c;
+  position: relative;
+}
+
+.about-us-content h2::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #e74c3c;
+  transform: translateY(5px);
+  opacity: 0.5;
+}
+
+/* Style paragraphs */
+.about-us-content p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin: 15px 0;
+  color: #7f8c8d;
+}
+
+/* Style the unordered list */
+.about-us-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-us-content ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+/* Add a small circular icon for each list item with a 3D effect */
+.about-us-content ul li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: #e74c3c;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Highlight the important text in a bold 3D effect */
+.about-us-content strong {
+  color: #2c3e50;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style links with hover color change and a slight 3D effect */
+.about-us-content a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.about-us-content a:hover {
+  color: #2c3e50;
+  text-decoration: underline;
+  transform: translateY(-2px);
+}
+
+/* Add a box-shadow effect on hover for each link */
+.about-us-content a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #e74c3c;
+  transform: translateY(10px);
+  opacity: 0.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-us-content {
+    padding: 20px;
+  }
+
+  .about-us-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-us-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-us-content p {
+    font-size: 1.1rem;
+  }
+
+  .about-us-content ul li {
+    font-size: 1rem;
+  }
+}

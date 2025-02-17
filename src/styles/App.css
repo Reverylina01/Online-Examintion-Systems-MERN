@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  color :#f8f9fa
+}
+
+.card {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+}

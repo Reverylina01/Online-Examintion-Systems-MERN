@@ -1,0 +1,91 @@
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background: #f5f7fa;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar ul li:hover {
+  background: #34495e;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.dashboard-header {
+  background: #2980b9;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Stats Cards */
+.stats-cards {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.stat-card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+}
+
+.green { background: #2ecc71; }
+.purple { background: #9b59b6; }
+.blue { background: #3498db; }
+.orange { background: #e67e22; }
+
+/* Table */
+.dashboard-content {
+  margin-top: 20px;
+}
+
+.table {
+  background: white;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  margin-right: 5px;
+}
+
+.loading-section {
+  text-align: center;
+  margin-top: 50px;
+}
