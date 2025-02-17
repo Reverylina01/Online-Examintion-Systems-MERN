@@ -54,16 +54,13 @@ Steps to Do After Cloning The Repository:-
 3. Call the `createadmin`(located inside connection.js inside services Folder in Backend directory)
    function after configuring admin details in it from tool.js file inside services Folder in Backend directory and run the server.
 
-4. To run the Backend server, use "nodemon" in a Terminal in Backend directory.
+4. To run the Backend server, use "node server.js" in a Terminal in Backend directory.
 
 5. After successfully running the Backend server the Mongo Database gets connected and the 
    admin account gets Created.
    
-6. Remove the `createadmin` invocation from connection.js and Restart the Backend Server.
    
-7. To run the Frontend server, use "npm start" Command in a Terminal in Frontend directory.
+6. To run the Frontend server, use "npm start" Command in a Terminal in Frontend directory.
 
-8. After The development server starts on "localhost:3000" in a Browser, Enter The Admin Details
-   To start using the Website ui.
 
-9. By Default Admin emailid: "admin@test.com", Password: "admin" .
+7. By Default Admin emailid: "admin@test.com", Password: "admin" .
